@@ -1,0 +1,17 @@
+{
+  "name": "cs5003_p2_kanban",
+  "version": "1.0.0",
+  "description": "Custom implementation of a kanban-style workload manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "[insert student id's here]",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express": "^4.17.2",
+    "express-basic-auth": "^1.2.1",
+    "nanoid": "^3.3.0"
+  }
+}

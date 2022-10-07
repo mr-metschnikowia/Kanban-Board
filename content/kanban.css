@@ -1,0 +1,61 @@
+#boardDiv{
+background-color: lightcoral;
+display: flex;
+clear: both;
+justify-content: space-between;
+ align-items: stretch;
+ padding: 0px 20px;
+}
+#boardDiv div{
+  flex: 1 1 auto; 
+  border: thin black ;
+  max-width: 500px;
+  background: #fef7ff;
+  color: #4b4453;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #4b4453;
+  border-radius: 10px;
+}
+#boardDiv div > p {
+border: solid thick black;
+background-color: white;
+padding: 10px;
+font-size: medium;
+font-family:Arial;
+}
+#leftbox {
+  float:left; 
+  width:33.3%;
+  height:280px;
+  font-size: medium;
+  font-family: Arial;
+  background-color: lightblue;
+}
+
+#middlebox {
+    float: left;
+    width: 33.3%;
+    height: 280px;
+    font-size: medium;
+    font-family: Arial;
+    background-color: lightblue;
+}
+#rightbox {
+    float: left;
+    width: 33.3%;
+    height: 280px;
+    font-size: medium;
+    font-family: Arial;
+    background-color: lightblue;
+}
+
+input[type=text]{
+  width: 70%;
+  padding: 12px 18px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+}

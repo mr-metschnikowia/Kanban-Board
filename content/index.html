@@ -1,0 +1,49 @@
+<!DOCTYPE html>`
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./kanban.css">
+
+    <title>Kanban Board</title>
+</head>
+<div id="Kanban">
+    <div id="leftbox">
+        <h1>Board</h1>
+        <div><label> Code: </label> <input type="text" id="code" /></div>
+        <div><label> Title: </label> <input type="text" id="title" /></div>
+        <div><label> Columns: </label> <select>
+                <option id="default"> default </option>
+                <option id="empty"> empty </option>
+            </select></div>
+        <button id="create_board"> Create/Get Board </button>
+    </div>
+    <div id="middlebox">
+        <section id="card">
+            <h1> Card </h1>
+            <div><label> Card Title: </label><input type="text" id="card_title" /></div>
+            <div><label> Description: </label><input type="text" id="description" /></div>
+            <div><label> SubTasks (in format: task1,task2,task3): </label><input type="text" id="subtask" /></div>
+            <button id="create_card"> Create Card </button>
+        </section>
+    </div>
+    <div id="rightbox">
+        <section id="boardInfo">
+            <h1> Board Information </h1>
+            <div><label> Add New Column: </label><input type="text" id="columnName" /></div>
+            <button id="create_column"> Create Column </button>
+            <button id="delete_column"> Delete Column </button>
+            <div id="info"></div>
+            <br>
+        </section>
+    </div>
+</div>
+
+
+<div id="boardDiv"></div>
+<script src="client.js"></script>
+
+
+
+
+
+</html>
